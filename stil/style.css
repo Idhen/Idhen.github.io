@@ -1,0 +1,165 @@
+* { /* Fjerner unødvendig margin og padding rundt dokumentet*/
+    margin: 0;
+    padding: 0;
+}
+
+body { /* Tilpasser innholdet slik at sidens bredde aldri går utenfor det synlige vinduet*/
+    height: 100%;
+    width: auto;
+}
+
+a:link, a:visited { /* Endring av standard link-verdier*/
+    color: lightgrey;
+    text-decoration: none;
+}
+  
+a:link:active, a:visited:active {
+    color: white;
+}
+
+.main-container { /* Hoved grid-containeren, dekker hele siden*/
+    display: grid;
+    grid-template-rows: .1fr 1fr 1fr .1fr;
+    height: 100vh;
+}
+    
+.navbar {
+    display: grid;  
+    background-color: #0e2e44;
+}
+
+.header {
+    background-image: linear-gradient(to right, #0e2e44, #325d7a);
+    display: grid;
+}
+
+.header-item { /* Tekst for header*/
+    text-align: center;
+    place-self: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI';
+}
+
+.lowerhalf-container { /* Står for andre halvdel av siden, 3 kolonner for info-elementer*/
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.xpreview-container {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin: 20px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.xpreview-container:hover {
+    margin: 15px;
+}
+
+.ximage { /* Bilde til informasjonsbiten*/
+    display: grid;
+}
+
+.xinfo {
+    display: grid;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.xinfo-text {
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    font-family: 'Segoe UI';
+}
+
+.footer {
+    background-color: #325d7a;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.menu-button { /* Aka hamburger menyen oppe i venstre*/
+    width: 40px;
+    height: 40px;
+}
+
+.center { /* Brukt til å sette bilder i midten av et element*/
+    place-self: center;
+    width: 30%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    margin: 10px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a { /* Dropdown-meny tekst*/
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+    border-radius: 5px;
+}
+
+@media (max-width: 700px) { /* Verdier for når vinduet er mindre enn 700px bredt. Endrer de 3 nederste kolonnene til rader*/
+    .headeritem {
+        font-size: 30px;
+    }
+
+    .xinfo-text {
+        font-size: 20px;
+    }
+
+    .footer-text {
+        font-size: 15px;
+    }
+
+    .menu-button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .lowerhalf-container {
+        padding-left: 0%;
+        padding-right: 0%;
+        grid-template-columns: auto;
+    }
+}

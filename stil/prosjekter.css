@@ -1,0 +1,32 @@
+.prosjekter-container {
+    display: grid;
+    grid-row: span 2;
+    background-image: linear-gradient(to right, #0e2e44, #325d7a);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.prosjekt-bilde {
+    background-color: darkgreen;
+    margin: 20px;
+    background-image: url("../bilder/prosjekt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.prosjekt-info {
+    background-color: green;
+    margin: 20px;
+}
+
+.center {
+    max-height: 75%;  
+    max-width: 75%; 
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}

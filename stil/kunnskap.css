@@ -1,0 +1,88 @@
+.info-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-row: span 2;
+    background-image: linear-gradient(to right, #0e2e44, #325d7a);
+}
+
+.infocard {
+    background-color: transparent;
+    margin: 40px;
+    perspective: 1000px;
+}
+
+.infocard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.infocard:hover .infocard-inner {
+    transform: rotateY(180deg);
+}
+
+.infocard-front, .infocard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 0px 0px 25px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infocard-front {
+    background-color: white;
+    color: black;
+}
+
+.infocard-back {
+    background-color: #4c728b;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.center {
+    max-height: 75%;  
+    max-width: 75%; 
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+h1, p {
+    font-family: 'Segoe UI';
+}
+
+p {
+    font-size: 20px;
+}
+
+
+@media (max-width: 700px) {
+    .info-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .infocard {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+}
