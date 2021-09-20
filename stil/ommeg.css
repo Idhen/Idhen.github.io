@@ -1,11 +1,8 @@
 .ommeg-container {
     background-color: red;
     grid-row: span 2;
-    background-image: url("../bilder/meg.png");
     background-repeat: no-repeat;
     background-size: 100% 50%;
     background-position: center;
     
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
 }
