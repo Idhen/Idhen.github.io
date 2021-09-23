@@ -1,8 +1,18 @@
-.ommeg-container {
-    background-color: red;
+.container {
+    background-color: #3b6988;
     grid-row: span 2;
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    background-position: center;
-    
+    text-align: center;
+}
+
+h1, p {
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
 }
