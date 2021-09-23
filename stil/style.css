@@ -57,7 +57,7 @@ a:link:active, a:visited:active {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.xpreview-container:hover {
+.xpreview-container:hover { /*Forstørrer containeren når musen er over den*/
     margin: 15px;
 }
 
@@ -130,7 +130,7 @@ a:link:active, a:visited:active {
     border-radius: 5px;
 }
 
-.css-selector {
+.css-selector { /*Kode for animert header bakgrunn */
     background: linear-gradient(270deg, #0e2e44, #325d7a);
     background-size: 400% 400%;
     display: grid;

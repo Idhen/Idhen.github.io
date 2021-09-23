@@ -1,4 +1,4 @@
-.info-container {
+.info-container { /*Hoved-container */
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,7 +8,7 @@
     background-image: linear-gradient(to right, #0e2e44, #325d7a);
 }
 
-.infocard {
+.infocard { /*Infokort styling... videre er kode for bakgrunn, animert rotering */
     background-color: transparent;
     margin: 40px;
     perspective: 1000px;
@@ -48,7 +48,7 @@
     transform: rotateY(180deg);
 }
 
-.center {
+.center { /*Kode for å sentrere et objekt, her et bilde inni infokortet */
     max-height: 75%;  
     max-width: 75%; 
     position: absolute;  
@@ -68,7 +68,7 @@ p {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 700px) { /*Endringer i koden for å gjøre tekst mer synlig når skjermen er liten */
     .info-container {
         padding-left: 0;
         padding-right: 0;
@@ -79,10 +79,10 @@ p {
     }
 
     h1 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     p {
-        font-size: 8px;
+        font-size: 12px;
     }
 }

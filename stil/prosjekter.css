@@ -2,21 +2,13 @@
     display: grid;
     grid-row: span 2;
     background-image: linear-gradient(to right, #0e2e44, #325d7a);
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.prosjekt-bilde {
-    background-color: darkgreen;
-    margin: 20px;
-    background-image: url("../bilder/prosjekt.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
 
 .prosjekt-info {
-    background-color: green;
+    background-color: #325d7a;
     margin: 20px;
 }
 
@@ -29,4 +21,10 @@
     left: 0;  
     right: 0;  
     margin: auto;
+}
+
+txt {
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI';
 }
