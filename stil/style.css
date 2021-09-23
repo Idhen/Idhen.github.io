@@ -29,8 +29,11 @@ a:link:active, a:visited:active {
 }
 
 .header {
-    background-image: linear-gradient(to right, #0e2e44, #325d7a);
+    background-image: url("../bilder/utsikt.jpg");
     display: grid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-item { /* Tekst for header*/
@@ -130,34 +133,13 @@ a:link:active, a:visited:active {
     border-radius: 5px;
 }
 
-.css-selector { /*Kode for animert header bakgrunn */
-    background: linear-gradient(270deg, #0e2e44, #325d7a);
-    background-size: 400% 400%;
-    display: grid;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
 @media (max-width: 700px) { /* Verdier for når vinduet er mindre enn 700px bredt. Endrer de 3 nederste kolonnene til rader*/
     .headeritem {
         font-size: 30px;
+    }
+
+    .header {
+        height: 325px;
     }
 
     .xinfo-text {

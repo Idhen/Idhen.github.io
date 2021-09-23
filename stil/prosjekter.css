@@ -2,14 +2,14 @@
     display: grid;
     grid-row: span 2;
     background-color: #284e68;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 
 .prosjekt-info {
     margin: 20px;
     background-color: #0e2e44;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .pro1{
@@ -44,17 +44,17 @@ txt {
     font-size: 24px;
     font-family: 'Segoe UI';
     text-align: center;
-    
 }
 
-pre {
+h1, p {
     color: white;
-    font-size: 24px;
     font-family: 'Segoe UI';
 }
 
-@media (max-width: 700px) {
-    .prosjekter-container {
-        grid-template-columns: auto;
-    }
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
 }
