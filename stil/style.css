@@ -28,7 +28,7 @@ a:link:active, a:visited:active {
     background-color: #0e2e44;
 }
 
-.header {
+.header { /* Bakgrunnsbildet i headeren*/
     background-image: url("../bilder/utsikt.jpg");
     display: grid;
     background-position: center;
@@ -52,7 +52,7 @@ a:link:active, a:visited:active {
     padding-right: 10%;
 }
 
-.xpreview-container {
+.xpreview-container { /* Individuell container*/
     display: grid;
     grid-template-rows: 2fr 1fr;
     margin: 20px;
@@ -68,7 +68,7 @@ a:link:active, a:visited:active {
     display: grid;
 }
 
-.xinfo {
+.xinfo { /* Info-biten*/
     display: grid;
     background-color: white;
     border-radius: 0px 0px 8px 8px;
