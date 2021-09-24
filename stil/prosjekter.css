@@ -1,16 +1,32 @@
 .prosjekter-container {
     display: grid;
     grid-row: span 2;
-    background-image: linear-gradient(to right, #0e2e44, #325d7a);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    background-color: #284e68;
 }
 
 
 .prosjekt-info {
-    background-color: #325d7a;
     margin: 20px;
+    background-color: #0e2e44;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
+
+.pro1{
+    margin: 20px;
+    background-image: url("../bilder/nettsideprosjekt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.prosjekt-inner{
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 
 .center {
     max-height: 75%;  
@@ -27,4 +43,18 @@ txt {
     color: white;
     font-size: 24px;
     font-family: 'Segoe UI';
+    text-align: center;
+}
+
+h1, p {
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
 }
