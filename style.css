@@ -51,9 +51,27 @@ li a {
     text-decoration: underline;
 }
 
+#info {
+    float: right;
+}
+
 hr {
     height: 1px;
     border-width: 0;
     color: white;
     background-color: white
+}
+
+@media (max-width: 1100px) {
+    .outer {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    #info {
+        float: left;
+    }
+
+    
 }
