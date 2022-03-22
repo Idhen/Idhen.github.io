@@ -1,0 +1,23 @@
+* {
+    font-family: 'Verdana';
+    color: white;
+}
+
+body {
+    background-color: #181818;
+    margin: 0;
+    height: 100vh;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+input[type="submit" i] {
+    background-color: #181818;
+    color: white
+}
+
+input {
+    color: black;
+}

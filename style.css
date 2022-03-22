@@ -1,0 +1,59 @@
+* { /* Tekst-innstillinger */
+    color: white;
+    font-family: 'Verdana'
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(#6b9192, #488082);
+    display: flex;
+    height: 100vh;
+}
+
+.outer {
+    margin: auto;
+    background-color: rgb(24, 24, 24);
+    height: 95%;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageheader {
+    background-image: url("bilder/fjell.jpg");
+    height: 20%;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: white;
+    background-color: white
+}

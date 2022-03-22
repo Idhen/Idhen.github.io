@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrering / Innlogging</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<form action="registrerBruker.php" method="GET"> <!--Form for registrering av ny bruker-->
+  <fieldset style="width: 40%;">
+    <legend>Registrer ny bruker</legend>
+    BrukerID: <input type="number" name="nyBrukerID">
+    Passord: <input type="password" name="nyPass">
+    <input type="submit" name="registrer">
+  </fieldset>
+</form>
+
+<form action="login.php" method="GET"> <!--Form for innlogging-->
+  <fieldset style="width: 40%;"> <!--Kant rundt form-->
+    <legend>Logg inn</legend> <!--Tekst som bryter kanten-->
+    BrukerID: <input type="number" name="LogInID">
+    Passord: <input type="password" name="LogInPass">
+    <input type="submit" name="login">
+  </fieldset>
+</form>
+
+<p>Din data lagres trygt på våres databaser.</p>
+
+</body>
+</html>
