@@ -1,0 +1,17 @@
+html { /* Setter elementer og spillet i midten*/
+    text-align: center;
+}
+
+body { /* Fjerner margin og padding*/
+    margin: 0;
+    padding: 0;
+}
+
+p { /* Font endringer*/
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+}
+
+h2 {
+    font-family:'Trebuchet MS';
+}
