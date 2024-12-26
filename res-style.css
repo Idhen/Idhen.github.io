@@ -107,6 +107,17 @@ hr {
     overflow-y: scroll;
     scrollbar-width: none;
     padding: 2%;
+    -webkit-scrollbar {
+        display: none; /* For Safari and Chrome */
+    }
+}
+
+scroll-area::-webkit-scrollbar {
+    background-color: black;
+    display: none;
+    -webkit-appearance: none;
+    height: 0px;
+    width: 100px;
 }
 
 .language-selector-container {
@@ -162,25 +173,28 @@ hr {
     height: 9rem;
     display: flex;
     justify-content: center;
+    align-items: stretch; /* Ensures all flex items align properly */
     background: linear-gradient(90deg, #00000000 0%, #0000006a 100%);
-}
-
-.showcase-entry-imagebox {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  }
+  
+  .showcase-entry-imagebox {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 0; 
     cursor: pointer;
     margin: 0% 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.showcase-entry-image {
+  }
+  
+  .showcase-entry-image {
     max-width: 100%;
     max-height: 90%;
+    object-fit: contain;
     border-radius: 0.25rem;
-}
+  }
+  
 
 .fullscreen-image-container {
     position: relative;
@@ -195,7 +209,7 @@ hr {
 
 .fullscreen-image-pane {
     width: auto;
-    height: 60%;
+    height: 50%;
     border-radius: 1rem;
 }
 

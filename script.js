@@ -100,7 +100,6 @@ async function fetchData () {
                             return `<div class="showcase-entry-imagebox">
                                         <img class="showcase-entry-image" onclick="zoomImage('${safeObject}')" src="${image.url}"/>
                                     </div>`
-                            return `<div class="showcase-entry-imagebox" onclick="zoomImage('${image}')" style="background-image: url(${image});"></div>`
                         }).join('')}
                     </div>
                     </div>
