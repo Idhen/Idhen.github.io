@@ -1,0 +1,224 @@
+html {
+    font-size: 16px;
+    color: white;
+    font-family: 'Verdana'
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(180deg, #000000 0%, #323232 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /**
+        background: linear-gradient(#1c1c1c, #000000);
+        background: linear-gradient(180deg, #003d49 0%, #2d2d2d 100%);
+    **/
+}
+
+.page-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+
+.content-container {
+    background-color: rgb(24, 24, 24);
+    height: 95%;
+    width: 40%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 1s ease;
+    overflow: hidden;
+}
+
+.link-bar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.link-bar > p {
+    margin: 2%;
+    cursor: pointer;
+}
+
+.link-bar > .divider {
+    margin: 2% 0%;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.image-header {
+    background-image: url("bilder/fjell.jpg");
+    height: 20%;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    height: 0.2%;
+    border-width: 0;
+    color: white;
+    background-color: white
+}
+
+.intro-text {
+    margin: 1.5rem;
+}
+
+.demo-container {
+    background-color: rgb(20, 20, 20);
+    height: 93%;
+    width: 38%;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 1s ease;
+    overflow: hidden;
+}
+
+.scroll-area {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 2%;
+}
+
+.language-selector-container {
+    margin: 0.5%;
+    margin-right: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.language-option {
+    flex: 1;
+    padding: 0px 10%;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.language-option.selected {
+    background-color: #363636;
+}
+
+.showcase-entry-container {
+    width: 100%;
+    background-color: #3939398d;
+    margin-bottom: 7.5%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.6rem;
+}
+
+.showcase-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-entry-textbox {
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+.showcase-entry-title {
+    margin: 3%;
+}
+
+.showcase-entry-description {
+    margin: 3%;
+}
+
+.showcase-entry-images {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #00000000 0%, #0000006a 100%);
+}
+
+.showcase-entry-imagebox {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    margin: 0% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-entry-image {
+    max-width: 100%;
+    max-height: 90%;
+    border-radius: 0.25rem;
+}
+
+.fullscreen-image-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+.fullscreen-image-pane {
+    width: auto;
+    height: 60%;
+    border-radius: 1rem;
+}
+
+.description-text {
+    background-color: rgba(28, 28, 28, 0.843); 
+    padding: 0.5rem; 
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 1500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 8px;
+    }
+}

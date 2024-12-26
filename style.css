@@ -1,0 +1,155 @@
+* { /* Tekst-innstillinger */
+    color: white;
+    font-family: 'Verdana'
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background-image: linear-gradient(#1c1c1c, #000000);
+    background: linear-gradient(180deg, #003d49 0%, #2d2d2d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+
+.content-container {
+    background-color: rgb(24, 24, 24);
+    height: 95%;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 1s ease;
+    overflow: hidden;
+}
+
+.link-bar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.link-bar > p {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.image-header {
+    background-image: url("bilder/fjell.jpg");
+    height: 20%;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: white;
+    background-color: white
+}
+
+.demo-container {
+    background-color: rgb(20, 20, 20);
+    height: 93%;
+    width: 38%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 1s ease;
+    overflow: hidden;
+}
+
+.scroll-area {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 10px;
+}
+
+.language-selector-container {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+
+.language-option {
+    flex: 1;
+    padding: 0px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.language-option.selected {
+    background-color: #363636;
+}
+
+
+.showcase-entry-container {
+    width: 100%;
+    height: 300px;
+    background-color: #3939398d;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.showcase-content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.showcase-entry-textbox {
+    flex: 1.5;
+}
+
+.showcase-entry-title {
+    margin: 20px;
+}
+
+.showcase-entry-description {
+    margin: 20px;
+}
+
+.showcase-entry-images {
+    flex: 1;
+    display: flex;
+    background: linear-gradient(90deg, #00000000 0%, #0000006a 100%);
+}
+
+.showcase-entry-imagebox {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('ejfwfjkw');
+    margin: 10px 10px;
+    cursor: pointer;
+}

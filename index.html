@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="res-style.css">
+</head>
+<body>
+    <div class="language-selector-container">
+        <div id="lang-no" class="language-option" onclick="changeLanguage('no')">🇳🇴</div>
+        <div id="lang-en" class="language-option" onclick="changeLanguage('en')">🇬🇧</div>
+    </div>
+    <div class="page-container">
+        <div id="demo-container" class="demo-container">
+            <div class="scroll-area" id="scroll-area"></div>
+        </div>
+        <div id="content-container" class="content-container">
+            <div class="image-header">
+                <h1>//idhen.no</h1>
+            </div>
+    
+            <div class="link-bar">
+                <p id="button-intro" class="selected" onclick="changeView('intro')"></p>
+                <p class="divider">|</p>
+                <p id="button-demo" onclick="changeView('demo')"></p>
+            </div>
+    
+            <hr/>
+
+            <p class="intro-text" id="intro-line-1"></p>
+            <p class="intro-text" id="intro-line-2"></p>
+            <p class="intro-text" id="intro-line-3"></p>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

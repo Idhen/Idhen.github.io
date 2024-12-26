@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Trade certificate in IT Development",
+        "description": "I finished my apprenticeship with an assignment on the development of a PWA. The assignment lasted one week, and involved retrieving and displaying API data in an interface. The solution was developed in the Quasar framework.",
+        "images": [
+            {"url": "/bilder/fagprove/1.png", "description": "Tab for logging daily food consumption, with foods from the matvaretabellen.no API."},
+            {"url": "/bilder/fagprove/2.png", "description": "Foods and ingredients can be combined into user-defined meals."},
+            {"url": "/bilder/fagprove/3.png", "description": "Graph for comparison with older values."}
+        ]
+    },
+    {
+        "title": "Apprentice at Anteo AS",
+        "description": "From 2022 to 2024 I was an apprentice at the SaaS company Anteo. There I worked on tasks related to web development, mainly with front-end aspects, but also with maintenance of existing systems. I used JavaScript, React, Vue.",
+        "images": [
+            {"url": "/bilder/anteo/groups.png", "description": "Here I designed and developed a simple interface for collecting and storing boat groups for a backend."},
+            {"url": "/bilder/anteo/monitor.png", "description": "This is a picture of a larger apprenticeship project that involved displaying boats and their missions in real time."},
+            {"url": "/bilder/anteo/warning.png", "description": "A simple component to prevent user errors."}
+        ]
+    },
+    {
+        "title": "Internship student at Apility AS",
+        "description": "Through VG2 I was an intern at the web company Apility. There I was introduced to industry tools and collaboration methods like Git.",
+        "images": []
+    },
+    {
+        "title": "Personal projects",
+        "description": "Through school and free time, I have explored and learned more about new technologies related to programming and coding. Developing interactive programs such as 3D games was one of the first things I became interested in.",
+        "images": [
+            {"url": "/bilder/personal/trembl.png", "description": "A school project for a sustainable means of communication for the disabled."},
+            {"url": "/bilder/personal/scr.png", "description": "A simple helicopter simulator developed in Godot3D."},
+            {"url": "/bilder/personal/sudok.png", "description": "At the request of a family member, a website for drawing sumsudoku."}
+        ]
+    }
+]
