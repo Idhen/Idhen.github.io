@@ -83,8 +83,7 @@ body {
 hr {
     height: 0.2%;
     border-width: 0;
-    color: white;
-    background-color: white
+    background-color: #626262
 }
 
 .portrait-container {

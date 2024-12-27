@@ -1,7 +1,7 @@
 [
     {
         "title": "Trade certificate in IT Development",
-        "description": "I finished my apprenticeship with an assignment on the development of a PWA. The assignment lasted one week, and involved retrieving and displaying API data in an interface. The solution was developed in the Quasar framework.",
+        "description": "I finished my apprenticeship with an assignment on the development of a PWA. The assignment lasted one week, and involved retrieving, storing and displaying API data in an interface. The solution was developed in the Quasar framework.",
         "images": [
             {"url": "/bilder/fagprove/1.png", "description": "Tab for logging daily food consumption, with foods from the matvaretabellen.no API."},
             {"url": "/bilder/fagprove/2.png", "description": "Foods and ingredients can be combined into user-defined meals."},

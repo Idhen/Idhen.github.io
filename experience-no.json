@@ -1,7 +1,7 @@
 [
     {
         "title": "Bestått fagprøve i IT-Utvikling",
-        "description": "Jeg avsluttet læretiden min med en oppgave rundt utviklingen av en PWA. Oppgaven varte en uke, og innebærte henting og fremvisning av API-data i et grensesnitt. Løsningen ble utviklet i rammeverket Quasar.",
+        "description": "Jeg avsluttet læretiden min med en oppgave rundt utviklingen av en PWA. Oppgaven varte en uke, og innebærte henting, lagring og fremvisning av API-data i et grensesnitt. Løsningen ble utviklet i rammeverket Quasar.",
         "images": [
             {"url": "/bilder/fagprove/1.png", "description": "Fane for logging av daglig matvareforbruk, med matvarer fra matvaretabellen.no sitt API."},
             {"url": "/bilder/fagprove/2.png", "description": "Matvarer og ingredienser kan sammensettes i brukerdefinerte måltid."},
@@ -10,10 +10,10 @@
     },
     {
         "title": "Lærling hos Anteo AS",
-        "description": "Fra 2022 til 2024 var jeg lærling hos SaaS-selskapet Anteo. Der fikk jeg arbeidet med oppgaver rundt webutvikling i hovedsak med frontend men også rundt vedlikehold av eksisterende system. Bruk av JavaScript, React, Vue.",
+        "description": "Fra 2022 til 2024 var jeg lærling hos SaaS-selskapet Anteo. Der fikk jeg arbeidet med oppgaver rundt webutvikling i hovedsak med frontend men også rundt vedlikehold av eksisterende system. Bruk av JavaScript, React, Vue. Noen av oppgavene er avbildet nedenfor.",
         "images": [
             {"url": "/bilder/anteo/groups.png", "description": "Her designet og utviklet jeg et enkelt grensesnitt for samling og lagring av båt-grupper til en backend."}, 
-            {"url": "/bilder/anteo/monitor.png", "description": "Dette er et bilde av et større lærlingprosjekt som innebærte fremvisning båter og dems oppdrag i sanntid."}, 
+            {"url": "/bilder/anteo/monitor.png", "description": "Dette er et bilde av et større lærlingprosjekt som innebærte fremvisning av båter og dems oppdrag i sanntid."}, 
             {"url": "/bilder/anteo/warning.png", "description": "En enkel komponent for å hindre brukerfeil."}
         ]
     },
