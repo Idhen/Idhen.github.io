@@ -233,7 +233,7 @@ scroll-area::-webkit-scrollbar {
     border-radius: 0.5rem;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
     html {
         font-size: 12.75px;
     }
